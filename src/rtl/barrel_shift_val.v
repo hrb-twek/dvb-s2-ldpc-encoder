@@ -10,10 +10,10 @@ module barrel_shift_val #(
     sel,
     out
 );
-input wire clk;
-input wire [WIDTH-1:0] in;
-input wire sel;
-input wire [WIDTH-1:0] out;
+input  wire clk;
+input  wire [WIDTH-1:0] in;
+input  wire sel;
+output wire [WIDTH-1:0] out;
 
 reg  [0:WIDTH-1]shift;
 always@(*) begin
